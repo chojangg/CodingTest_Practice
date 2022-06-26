@@ -5,6 +5,8 @@
 int* solution(int arr[], int arr_len) {
     int left = 0;
     int right = arr_len - 1;
+    
+    // ºóÄ­
     while (left < arr_len / 2) {
         int temp = arr[left];
         arr[left] = arr[right];
@@ -26,4 +28,6 @@ int main() {
         printf("%d", ret[i]);
     }
     printf("} ÀÔ´Ï´Ù.\n");
+
+    return 0;
 }
